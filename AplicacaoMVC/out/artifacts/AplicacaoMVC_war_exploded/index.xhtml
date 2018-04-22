@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+   <f:view>
+      <title> Oraculo Mineiro </title>
+      <body>
+         <h1> Que tipo de produto você deseja saber que são os melhores ?</h1>
+         <form action="oraculoController">
+            <select name="produto">
+               <option value="doce de leite"> Doce De Leite </option>
+               <option value="queijo mineiro"> Queijo Mineiro </option>
+            </select>
+            <input type="submit" value="Perguntar" />
+         </form>
+      </body>
+   </f:view>
+</html>
